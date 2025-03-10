@@ -1,0 +1,58 @@
+body {
+  background-color: lightgrey;
+  font-family: Arial, serif;
+  display: flex;
+  justify-content: center;
+}
+.parent {
+  display: inline-block;
+  background-color: white;
+  width: 90%;
+  border-radius: 10px;
+  padding: 5vh 5%;
+}
+h1 {
+ text-align: center;
+ font-size: min(200px, 8vw);
+}
+img {
+  width: 95%;
+  height: 50vw;
+  margin: 5px 2.5%;
+  border-radius: 10px;
+  background-color: #F1F0E9;
+}
+h2 {
+  color: grey;
+  text-align: center;
+  margin-top: 0;
+}
+p {
+  color: grey;
+}
+.high-light {
+  background-color: black;
+  color: white;
+  padding: 0px 5px;
+}
+.important-text {
+  background-color: lightgrey;
+  color: grey;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+.live {
+  color: grey;
+  background-color: #D9EAFD;
+  padding: 0px 10px;
+  border-radius: 5px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+@keyframes example {
+  25%   {background-color: #D9EAFD;}
+  50%  {background-color: #89A8B2;
+  color: black;}
+  25%  {background-color: #D9EAFD;}
+}
